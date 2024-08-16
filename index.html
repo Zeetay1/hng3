@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="top-java-boilerplates-container">
+        <div class="top-java-boilerplates-top-java-boilerplates">
+          <img
+            src="public/external/ellipse412002-90tm-700w.png"
+            alt="Ellipse412002"
+            class="top-java-boilerplates-ellipse41"
+          />
+          <img
+            src="public/external/ellipse362002-syts-700h.png"
+            alt="Ellipse362002"
+            class="top-java-boilerplates-ellipse36"
+          />
+          <img
+            src="public/external/ellipse392002-382l-700h.png"
+            alt="Ellipse392002"
+            class="top-java-boilerplates-ellipse39"
+          />
+          <div class="top-java-boilerplates-group234">
+            <span class="top-java-boilerplates-text100">
+              <span>Terms and Condtions</span>
+            </span>
+            <img
+              src="public/external/ellipse612002-s9zq-200h.png"
+              alt="Ellipse612002"
+              class="top-java-boilerplates-ellipse61"
+            />
+            <span class="top-java-boilerplates-text102">
+              <span>Privacy Policy</span>
+            </span>
+          </div>
+          <div class="top-java-boilerplates-frame1000001687">
+            <div class="top-java-boilerplates-unauthenticated-navbar">
+              <div class="top-java-boilerplates-hng-boilerplate-logo1">
+                <div class="top-java-boilerplates-group41">
+                  <span class="top-java-boilerplates-text104">
+                    <span>[ ]</span>
+                  </span>
+                  <img
+                    src="public/external/mdikettlei2002-3ty8.svg"
+                    alt="mdikettleI2002"
+                    class="top-java-boilerplates-mdikettle1"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text106 H3SemiBold">
+                  <span>HNG Boilerplate</span>
+                </span>
+              </div>
+              <div class="top-java-boilerplates-links1">
+                <div class="top-java-boilerplates-links2">
+                  <span class="top-java-boilerplates-text108 Paragraph2Medium">
+                    <span>Home</span>
+                  </span>
+                </div>
+                <div class="top-java-boilerplates-links3">
+                  <span class="top-java-boilerplates-text110 Paragraph2Medium">
+                    <span>Pricing</span>
+                  </span>
+                </div>
+                <div class="top-java-boilerplates-links4">
+                  <span class="top-java-boilerplates-text112 Paragraph2Medium">
+                    <span>Features</span>
+                  </span>
+                </div>
+              </div>
+              <button class="top-java-boilerplates-buttons1"></button>
+              <button class="top-java-boilerplates-button1">
+                <span class="top-java-boilerplates-text114 bodyMedium">
+                  <span>Log In</span>
+                </span>
+              </button>
+              <button class="top-java-boilerplates-button2">
+                <span class="top-java-boilerplates-text116 bodyMedium">
+                  <span>Get Started</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="top-java-boilerplates-frame2147226215">
+            <div class="top-java-boilerplates-lightmooddesktopfooter">
+              <span class="top-java-boilerplates-text118 H5SemiBold">
+                <span>Navigation</span>
+              </span>
+              <span class="top-java-boilerplates-text120 H5SemiBold">
+                <span>Support</span>
+              </span>
+              <span class="top-java-boilerplates-text122 H5Bold">
+                <span>Legal</span>
+              </span>
+              <div class="top-java-boilerplates-frame53075">
+                <span class="top-java-boilerplates-text124 H6Regular">
+                  <span>Home</span>
+                </span>
+                <span class="top-java-boilerplates-text126 H6Regular">
+                  <span>About us</span>
+                </span>
+                <span class="top-java-boilerplates-text128 H6Regular">
+                  <span>Careers</span>
+                </span>
+                <span class="top-java-boilerplates-text130 H6Regular">
+                  <span>Feature updates</span>
+                </span>
+                <span class="top-java-boilerplates-text132 H6Regular">
+                  <span>Blog</span>
+                </span>
+              </div>
+              <div class="top-java-boilerplates-frame53076">
+                <span class="top-java-boilerplates-text134 H6Regular">
+                  <span>Help Center</span>
+                </span>
+                <span class="top-java-boilerplates-text136 H6Regular">
+                  <span>FAQ</span>
+                </span>
+                <span class="top-java-boilerplates-text138 H6Regular">
+                  <span>Waiting list</span>
+                </span>
+                <span class="top-java-boilerplates-text140 H6Regular">
+                  <span>Pricing Experience</span>
+                </span>
+                <span class="top-java-boilerplates-text142 H6Regular">
+                  <span>Contact Us</span>
+                </span>
+              </div>
+              <div class="top-java-boilerplates-frame53077">
+                <span class="top-java-boilerplates-text144 H6Regular">
+                  <span>Privacy Policy</span>
+                </span>
+                <span class="top-java-boilerplates-text146 H6Regular">
+                  <span>Terms and condition</span>
+                </span>
+              </div>
+              <span class="top-java-boilerplates-text148">
+                <span>Sign Up For Newsletter</span>
+              </span>
+              <div class="top-java-boilerplates-frame53036">
+                <div class="top-java-boilerplates-frame53034">
+                  <span class="top-java-boilerplates-text150">
+                    <span>Enter Email</span>
+                  </span>
+                  <button class="top-java-boilerplates-buttons2">
+                    <span class="top-java-boilerplates-text152 bodyMedium1">
+                      <span>Subscribe</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="public/external/vector1i2002-sj.svg"
+                alt="Vector1I2002"
+              />
+              <span class="top-java-boilerplates-text154 BodyMediumsmall">
+                <span>Privacy Policy</span>
+              </span>
+              <span class="top-java-boilerplates-text156 BodyMediumsmall">
+                <span>Terms of Use</span>
+              </span>
+              <div class="top-java-boilerplates-frame53044">
+                <div class="top-java-boilerplates-tablercopyright">
+                  <div class="top-java-boilerplates-group1">
+                    <img
+                      src="public/external/vectori2002-b44.svg"
+                      alt="VectorI2002"
+                      class="top-java-boilerplates-vector1"
+                    />
+                    <img
+                      src="public/external/vectori2002-iat7.svg"
+                      alt="VectorI2002"
+                      class="top-java-boilerplates-vector2"
+                    />
+                  </div>
+                </div>
+                <span class="top-java-boilerplates-text158">
+                  <span>2024 All Rights Reserved</span>
+                </span>
+              </div>
+              <div class="top-java-boilerplates-frame53043">
+                <div class="top-java-boilerplates-frame53037">
+                  <div class="top-java-boilerplates-primetwitter">
+                    <div class="top-java-boilerplates-group2">
+                      <div class="top-java-boilerplates-clippathgroup">
+                        <div class="top-java-boilerplates-prime-twitter0">
+                          <img
+                            src="public/external/vectori2002-i33n.svg"
+                            alt="VectorI2002"
+                            class="top-java-boilerplates-vector3"
+                          />
+                        </div>
+                        <div class="top-java-boilerplates-group3">
+                          <img
+                            src="public/external/vectori2002-7ahp.svg"
+                            alt="VectorI2002"
+                            class="top-java-boilerplates-vector4"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-java-boilerplates-frame53039">
+                  <img
+                    src="public/external/mdiyoutubei2002-ashi.svg"
+                    alt="mdiyoutubeI2002"
+                    class="top-java-boilerplates-mdiyoutube"
+                  />
+                </div>
+                <div class="top-java-boilerplates-frame53040">
+                  <img
+                    src="public/external/mdiinstagrami2002-d4f8.svg"
+                    alt="mdiinstagramI2002"
+                    class="top-java-boilerplates-mdiinstagram"
+                  />
+                </div>
+                <img
+                  src="public/external/frame53041i2002-jyg.svg"
+                  alt="Frame53041I2002"
+                  class="top-java-boilerplates-frame530411"
+                />
+                <div class="top-java-boilerplates-frame530412">
+                  <img
+                    src="public/external/rifacebookfilli2002-c0ug.svg"
+                    alt="rifacebookfillI2002"
+                    class="top-java-boilerplates-rifacebookfill"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="top-java-boilerplates-group1000006011">
+              <span class="top-java-boilerplates-text160 BodyMediumsmall">
+                <span>10111, Hornchurch, London, United Kingdom</span>
+              </span>
+              <div class="top-java-boilerplates-frame1171275266">
+                <div class="top-java-boilerplates-hng-boilerplate-logo2">
+                  <div class="top-java-boilerplates-group42">
+                    <span class="top-java-boilerplates-text162">
+                      <span>[ ]</span>
+                    </span>
+                    <img
+                      src="public/external/mdikettlei2002-089g.svg"
+                      alt="mdikettleI2002"
+                      class="top-java-boilerplates-mdikettle2"
+                    />
+                  </div>
+                  <span class="top-java-boilerplates-text164 H4SemiBold">
+                    <span>HNG Boilerplate</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-java-boilerplates-blog">
+            <div class="top-java-boilerplates-content">
+              <span class="top-java-boilerplates-text166 BodyRegularNormal">
+                <span>Introduction</span>
+              </span>
+              <span class="top-java-boilerplates-text168 BodyRegularNormal">
+                <span class="top-java-boilerplates-text169">Step 1:</span>
+                <span>Setting Up Your Auth0 API</span>
+              </span>
+              <span class="top-java-boilerplates-text171 BodyRegularNormal">
+                <span class="top-java-boilerplates-text172">Step 2:</span>
+                <span>Configuring Your Spring Boot Project</span>
+              </span>
+              <span class="top-java-boilerplates-text174">
+                <span class="top-java-boilerplates-text175">Step 3:</span>
+                <span>Setting up Security Configuration</span>
+              </span>
+              <span class="top-java-boilerplates-text177 BodyRegularNormal">
+                <span class="top-java-boilerplates-text178">Step 4:</span>
+                <span>Securing API Endpoints</span>
+              </span>
+              <span class="top-java-boilerplates-text180">
+                <span class="top-java-boilerplates-text181">Step 5:</span>
+                <span>Advanced Securing Configuration</span>
+              </span>
+              <span class="top-java-boilerplates-text183">
+                <span>Additional Information</span>
+              </span>
+            </div>
+            <div class="top-java-boilerplates-article">
+              <div class="top-java-boilerplates-paragraph">
+                <span class="top-java-boilerplates-text185 H2Bold">
+                  <span>A Comparative Guide to the Best Java Boilerplates</span>
+                </span>
+                <span class="top-java-boilerplates-text187">
+                  <span>
+                    Beginning a new Java project often feels overwhelming due to
+                    the complexities of setting up the initial structure and
+                    configurations. Boilerplates can make this easier by
+                    providing a pre-configured base that minimizes repetitive
+                    tasks and allows you to focus on coding. In this article, we
+                    assess five of the top Java boilerplates, showcasing their
+                    unique strengths and how they can streamline your
+                    development process.
+                  </span>
+                </span>
+              </div>
+              <div class="top-java-boilerplates-step1">
+                <span class="top-java-boilerplates-text189 H3Regular">
+                  <span>HNG Java Boilerplate</span>
+                </span>
+                <span class="top-java-boilerplates-text191">
+                  <span>
+                    Overview: The HNG.tech Java Boilerplate is designed to be
+                    the ultimate foundation for any Java project, providing a
+                    highly efficient and organized starting point.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Key Features:</span>
+                  <br />
+                  <span>
+                    Comprehensive Setup: Includes configurations for testing,
+                    linting, and continuous integration.
+                  </span>
+                  <br />
+                  <span>
+                    Scalable Structure: Organized to handle projects of any
+                    size.
+                  </span>
+                  <br />
+                  <span>
+                    Extensive Documentation: Detailed guides and examples.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Pros:</span>
+                  <br />
+                  <span>Fast project setup with robust configurations.</span>
+                  <br />
+                  <span>Scalable architecture for large applications.</span>
+                  <br />
+                  <span>Detailed documentation and examples.</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Cons:</span>
+                  <br />
+                  <span>May be overkill for very small projects.</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>
+                    Use Case: Ideal for developers who need a solid foundation
+                    for large-scale or enterprise-level Java projects.
+                  </span>
+                </span>
+              </div>
+              <div class="top-java-boilerplates-step2">
+                <span class="top-java-boilerplates-text223 H3Regular">
+                  <span>Spring Boot Initializr</span>
+                </span>
+                <span class="top-java-boilerplates-text225">
+                  <span>
+                    Overview: Spring Boot Initializr is a widely used
+                    boilerplate for quickly generating Spring Boot applications.
+                    It provides a web-based interface where you can select
+                    dependencies and configure your project setup.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Key Features:</span>
+                  <br />
+                  <span>
+                    Customizable Project Setup: Easily choose dependencies and
+                    configurations.
+                  </span>
+                  <br />
+                  <span>
+                    Microservices Ready: Ideal for creating microservices
+                    architectures.
+                  </span>
+                  <br />
+                  <span>
+                    Extensive Documentation: Comprehensive guides and tutorials.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Pros:</span>
+                  <br />
+                  <span>Quick setup with a user-friendly interface.</span>
+                  <br />
+                  <span>
+                    Flexible configurations for various types of applications.
+                  </span>
+                  <br />
+                  <span>Strong community support and frequent updates.</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Cons:</span>
+                  <br />
+                  <span>
+                    Can be overwhelming for beginners due to the plethora of
+                    options.
+                  </span>
+                  <br />
+                  <span>
+                    Requires understanding of Spring concepts to fully utilize
+                    its capabilities.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>
+                    Use Case: Perfect for developers looking to create robust,
+                    scalable microservices or enterprise-level applications with
+                    Spring Boot.
+                  </span>
+                </span>
+                <span class="top-java-boilerplates-text259">
+                  <span>Code Example:</span>
+                </span>
+                <span class="top-java-boilerplates-text261">
+                  <span class="top-java-boilerplates-text262">
+                    Create a simple Spring Boot application with a RESTful
+                    endpoint:
+                  </span>
+                  <br />
+                  <span class="top-java-boilerplates-text264">
+                    Generate the project: Go to
+                  </span>
+                  <span class="top-java-boilerplates-text265">
+                    Spring Boot Initializr
+                  </span>
+                  <span>
+                    , configure your project, and download the generated zip
+                    file. Extract it and open the project in your IDE.
+                  </span>
+                </span>
+                <span class="top-java-boilerplates-text267">
+                  <span>Add a REST controller:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card10">
+                  <div class="top-java-boilerplates-frame21472263731">
+                    <div class="top-java-boilerplates-component401">
+                      <span class="top-java-boilerplates-text269">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/iconi2002-9joa.svg"
+                        alt="iconI2002"
+                        class="top-java-boilerplates-icon10"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code10">
+                    <span class="top-java-boilerplates-text271">
+                      <span>package com.example.demo;</span>
+                      <br />
+                      <span>
+                        import
+                        org.springframework.web.bind.annotation.GetMapping;
+                      </span>
+                      <br />
+                      <span>
+                        import
+                        org.springframework.web.bind.annotation.RestController;
+                      </span>
+                      <br />
+                      <span>@RestController</span>
+                      <br />
+                      <span>public class HelloController {</span>
+                      <br />
+                      <span>@GetMapping("/hello")</span>
+                      <br />
+                      <span>public String sayHello() {</span>
+                      <br />
+                      <span>return "Hello, Spring Boot!";</span>
+                      <br />
+                      <span>}</span>
+                      <br />
+                      <span>}</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-uux-200w.png"
+                    alt="Rectangle40292002"
+                    class="top-java-boilerplates-rectangle402910"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text291">
+                  <span>Run the application:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card11">
+                  <div class="top-java-boilerplates-code11">
+                    <span class="top-java-boilerplates-text293">
+                      <span>./mvnw spring-boot:run</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-26nr-200w.png"
+                    alt="Rectangle40292002"
+                    class="top-java-boilerplates-rectangle402911"
+                  />
+                </div>
+              </div>
+              <div class="top-java-boilerplates-step3">
+                <span class="top-java-boilerplates-text295 H3Regular">
+                  <span>JHipster</span>
+                </span>
+                <span class="top-java-boilerplates-text297">
+                  <span>
+                    Overview: JHipster combines Spring Boot and Angular/React to
+                    generate modern web applications. It offers a full-stack
+                    development solution, including front-end and back-end code
+                    generation.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Key Features:</span>
+                  <br />
+                  <span>
+                    Full-Stack Development: Generates both client and
+                    server-side code.
+                  </span>
+                  <br />
+                  <span>
+                    Microservices Support: Built-in support for microservices
+                    architecture.
+                  </span>
+                  <br />
+                  <span>
+                    DevOps Integration: Supports CI/CD pipelines, Docker, and
+                    Kubernetes.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Pros:</span>
+                  <br />
+                  <span>Comprehensive setup for full-stack applications.</span>
+                  <br />
+                  <span>Integrated development tools and technologies.</span>
+                  <br />
+                  <span>Active community and regular updates.</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Cons:</span>
+                  <br />
+                  <span>
+                    Steeper learning curve due to the combination of
+                    technologies.
+                  </span>
+                  <br />
+                  <span>
+                    Generated code can be complex for simple applications.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>
+                    Use Case: Ideal for developers who need a complete
+                    full-stack solution with modern front-end frameworks and
+                    Spring Boot on the back-end.
+                  </span>
+                </span>
+                <span class="top-java-boilerplates-text331">
+                  <span>Code Example:</span>
+                </span>
+                <span class="top-java-boilerplates-text333">
+                  <span>Install JHipster:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card12">
+                  <div class="top-java-boilerplates-frame214722637410">
+                    <div class="top-java-boilerplates-frame214722637411"></div>
+                    <div class="top-java-boilerplates-component402">
+                      <span class="top-java-boilerplates-text335">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/iconi2002-p17p.svg"
+                        alt="iconI2002"
+                        class="top-java-boilerplates-icon11"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code12">
+                    <span class="top-java-boilerplates-text337">
+                      <span>npm install -g generator-jhipster</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-2o6-200w.png"
+                    alt="Rectangle40292002"
+                    class="top-java-boilerplates-rectangle402912"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text339">
+                  <span>Generate a new application:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card13">
+                  <div class="top-java-boilerplates-frame214722637412">
+                    <div class="top-java-boilerplates-frame214722637413">
+                      <img
+                        src="public/external/icon2002-l01.svg"
+                        alt="icon2002"
+                        class="top-java-boilerplates-icon12"
+                      />
+                      <span class="top-java-boilerplates-text341">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-component403">
+                      <span class="top-java-boilerplates-text343">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/iconi2002-2zwh.svg"
+                        alt="iconI2002"
+                        class="top-java-boilerplates-icon13"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code13">
+                    <span class="top-java-boilerplates-text345">
+                      <span>jhipster</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-h1md-200w.png"
+                    alt="Rectangle40292002"
+                    class="top-java-boilerplates-rectangle402913"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text347">
+                  <span>Follow the prompts to configure your project.</span>
+                </span>
+                <span class="top-java-boilerplates-text349">
+                  <span>Run the application:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card14">
+                  <div class="top-java-boilerplates-frame214722637414">
+                    <div class="top-java-boilerplates-frame214722637415">
+                      <img
+                        src="public/external/icon2005-9rmw.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon14"
+                      />
+                      <span class="top-java-boilerplates-text351">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-component404">
+                      <span class="top-java-boilerplates-text353">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/iconi2005-hopk.svg"
+                        alt="iconI2005"
+                        class="top-java-boilerplates-icon15"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code14">
+                    <span class="top-java-boilerplates-text355">
+                      <span>./mvnw</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292005-rxhf-200w.png"
+                    alt="Rectangle40292005"
+                    class="top-java-boilerplates-rectangle402914"
+                  />
+                </div>
+              </div>
+              <div class="top-java-boilerplates-step4">
+                <span class="top-java-boilerplates-text357 H3Regular">
+                  <span>Dropwizard</span>
+                </span>
+                <span class="top-java-boilerplates-text359">
+                  <span>
+                    Overview: Dropwizard is a Java framework for developing
+                    RESTful web services. It bundles Jetty, Jackson, Jersey, and
+                    other libraries into a simple package that makes building
+                    production-ready applications straightforward.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Key Features:</span>
+                  <br />
+                  <span>
+                    Production-Ready: Focuses on creating high-performance,
+                    production-ready services.
+                  </span>
+                  <br />
+                  <span>
+                    Minimal Configuration: Simple setup with sensible defaults.
+                  </span>
+                  <br />
+                  <span>
+                    Monitoring and Metrics: Built-in support for monitoring and
+                    metrics.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Pros:</span>
+                  <br />
+                  <span>Lightweight and easy to set up.</span>
+                  <br />
+                  <span>Optimized for performance and stability.</span>
+                  <br />
+                  <span>Great for creating RESTful APIs quickly.</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Cons:</span>
+                  <br />
+                  <span>
+                    Limited to RESTful web services; not a full-stack solution.
+                  </span>
+                  <br />
+                  <span>
+                    Smaller community compared to Spring Boot and JHipster.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>
+                    Use Case: Best for developers looking to quickly build
+                    high-performance RESTful web services with minimal
+                    configuration.
+                  </span>
+                </span>
+                <span class="top-java-boilerplates-text393">
+                  <span>Code Example:</span>
+                </span>
+                <span class="top-java-boilerplates-text395">
+                  <span>Create a new Dropwizard project:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card15">
+                  <div class="top-java-boilerplates-frame21472263732">
+                    <div class="top-java-boilerplates-frame214722637416">
+                      <img
+                        src="public/external/icon2002-ubpm.svg"
+                        alt="icon2002"
+                        class="top-java-boilerplates-icon16"
+                      />
+                      <span class="top-java-boilerplates-text397">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-copy1">
+                      <span class="top-java-boilerplates-text399">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/icon2002-iau8.svg"
+                        alt="icon2002"
+                        class="top-java-boilerplates-icon17"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code15">
+                    <span class="top-java-boilerplates-text401">
+                      <span>
+                        mvn archetype:generate
+                        -DarchetypeGroupId=io.dropwizard.archetypes
+                        -DarchetypeArtifactId=java-simple
+                      </span>
+                      <br />
+                      <span>-DarchetypeVersion=2.0.0</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-idrg-200w.png"
+                    alt="Rectangle40292002"
+                    class="top-java-boilerplates-rectangle402915"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text405">
+                  <span>Create a resource class:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card16">
+                  <div class="top-java-boilerplates-frame21472263733">
+                    <div class="top-java-boilerplates-frame214722637417">
+                      <img
+                        src="public/external/icon2005-mtk.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon18"
+                      />
+                      <span class="top-java-boilerplates-text407">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-copy2">
+                      <span class="top-java-boilerplates-text409">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/icon2005-0my3.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon19"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code16">
+                    <span class="top-java-boilerplates-text411">
+                      <span>package com.example.helloworld.resources;</span>
+                      <br />
+                      <span>import javax.ws.rs.GET;</span>
+                      <br />
+                      <span>import javax.ws.rs.Path;</span>
+                      <br />
+                      <span>import javax.ws.rs.Produces;</span>
+                      <br />
+                      <span>import javax.ws.rs.core.MediaType;</span>
+                      <br />
+                      <span>@Path("/hello-world")</span>
+                      <br />
+                      <span>@Produces(MediaType.TEXT_PLAIN)</span>
+                      <br />
+                      <span>public class HelloWorldResource {</span>
+                      <br />
+                      <span>@GET</span>
+                      <br />
+                      <span>public String sayHello() {</span>
+                      <br />
+                      <span>return "Hello, Dropwizard!";</span>
+                      <br />
+                      <span>}</span>
+                      <br />
+                      <span>}</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292005-urv-200w.png"
+                    alt="Rectangle40292005"
+                    class="top-java-boilerplates-rectangle402916"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text437">
+                  <span>Create a resource class:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card17">
+                  <div class="top-java-boilerplates-frame21472263734">
+                    <div class="top-java-boilerplates-frame214722637418">
+                      <img
+                        src="public/external/icon2005-729k.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon20"
+                      />
+                      <span class="top-java-boilerplates-text439">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-copy3">
+                      <span class="top-java-boilerplates-text441">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/icon2005-tt9w.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon21"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code17">
+                    <span class="top-java-boilerplates-text443">
+                      <span>
+                        java -jar target/helloworld-1.0-SNAPSHOT.jar server
+                        config.yml
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292005-s6ubl-200w.png"
+                    alt="Rectangle40292005"
+                    class="top-java-boilerplates-rectangle402917"
+                  />
+                </div>
+              </div>
+              <div class="top-java-boilerplates-step5">
+                <span class="top-java-boilerplates-text445 H3Regular">
+                  <span>Micronaut</span>
+                </span>
+                <span class="top-java-boilerplates-text447">
+                  <span>
+                    Overview: Micronaut is a modern, JVM-based framework
+                    designed for building modular, easily testable microservice
+                    and serverless applications. It offers fast startup times
+                    and low memory consumption.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Key Features:</span>
+                  <br />
+                  <span>
+                    Ahead-of-Time (AOT) Compilation: Reduces startup time and
+                    memory usage.
+                  </span>
+                  <br />
+                  <span>
+                    Reactive and Non-Blocking: Optimized for reactive
+                    programming.
+                  </span>
+                  <br />
+                  <span>
+                    Cloud-Native: Built with cloud deployment in mind.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Pros:</span>
+                  <br />
+                  <span>
+                    Excellent performance with minimal resource usage.
+                  </span>
+                  <br />
+                  <span>
+                    Strong support for reactive and functional programming.
+                  </span>
+                  <br />
+                  <span>
+                    Suitable for microservices and serverless applications.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Cons:</span>
+                  <br />
+                  <span>Newer framework with a smaller community.</span>
+                  <br />
+                  <span>
+                    Limited ecosystem compared to more established frameworks
+                    like Spring Boot.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>
+                    Use Case: Great for developers who need a lightweight, fast
+                    framework for microservices or serverless applications with
+                    minimal resource consumption.
+                  </span>
+                </span>
+                <span class="top-java-boilerplates-text481">
+                  <span>Code Example:</span>
+                </span>
+                <span class="top-java-boilerplates-text483">
+                  <span>Create a new Micronaut project:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card18">
+                  <div class="top-java-boilerplates-frame21472263735">
+                    <div class="top-java-boilerplates-frame214722637419">
+                      <img
+                        src="public/external/icon2005-kyda.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon22"
+                      />
+                      <span class="top-java-boilerplates-text485">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-copy4">
+                      <span class="top-java-boilerplates-text487">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/icon2005-ra06.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon23"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code18">
+                    <span class="top-java-boilerplates-text489">
+                      <span>mn create-app example.micronaut.app</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292005-xuva-200w.png"
+                    alt="Rectangle40292005"
+                    class="top-java-boilerplates-rectangle402918"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text491">
+                  <span>Create a controller:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card19">
+                  <div class="top-java-boilerplates-frame21472263736">
+                    <div class="top-java-boilerplates-frame214722637420">
+                      <img
+                        src="public/external/icon2005-xkxc.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon24"
+                      />
+                      <span class="top-java-boilerplates-text493">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-copy5">
+                      <span class="top-java-boilerplates-text495">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/icon2005-gg5u.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon25"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code19">
+                    <span class="top-java-boilerplates-text497">
+                      <span>package example.micronaut;</span>
+                      <br />
+                      <span>
+                        import io.micronaut.http.annotation.Controller;
+                      </span>
+                      <br />
+                      <span>import io.micronaut.http.annotation.Get;</span>
+                      <br />
+                      <span>@Controller("/hello")</span>
+                      <br />
+                      <span>public class HelloController {</span>
+                      <br />
+                      <span>@Get("/")</span>
+                      <br />
+                      <span>public String index() {</span>
+                      <br />
+                      <span>return "Hello, Micronaut!";</span>
+                      <br />
+                      <span>}</span>
+                      <br />
+                      <span>}</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292005-1l8m-200w.png"
+                    alt="Rectangle40292005"
+                    class="top-java-boilerplates-rectangle402919"
+                  />
+                </div>
+                <span class="top-java-boilerplates-text517">
+                  <span>Run the application:</span>
+                </span>
+                <div class="top-java-boilerplates-code-card20">
+                  <div class="top-java-boilerplates-frame21472263737">
+                    <div class="top-java-boilerplates-frame214722637421">
+                      <img
+                        src="public/external/icon2005-pao9.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon26"
+                      />
+                      <span class="top-java-boilerplates-text519">
+                        <span>Example</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-copy6">
+                      <span class="top-java-boilerplates-text521">
+                        <span>Copy</span>
+                      </span>
+                      <img
+                        src="public/external/icon2005-neaq.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon27"
+                      />
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code20">
+                    <span class="top-java-boilerplates-text523">
+                      <span>./gradlew run</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292005-7vpa-200w.png"
+                    alt="Rectangle40292005"
+                    class="top-java-boilerplates-rectangle402920"
+                  />
+                </div>
+              </div>
+              <div class="top-java-boilerplates-congrats">
+                <span class="top-java-boilerplates-text525 H3Regular">
+                  <span>Conclusion</span>
+                </span>
+                <span class="top-java-boilerplates-text527">
+                  <span>
+                    Choosing the right boilerplate depends on your project
+                    requirements and development preferences. The HNG Java
+                    Boilerplate stands out for its comprehensive setup and
+                    scalability, making it ideal for large-scale projects.
+                    Spring Boot Initializr and JHipster are excellent for
+                    full-stack and enterprise applications, while Dropwizard and
+                    Micronaut shine in building high-performance, lightweight
+                    microservices. Using these boilerplates can streamline your
+                    development process, allowing you to focus on building
+                    features rather than configuring your project from scratch.
+                  </span>
+                </span>
+                <div class="top-java-boilerplates-code-card21">
+                  <div class="top-java-boilerplates-frame21472263738">
+                    <div class="top-java-boilerplates-frame214722637422">
+                      <img
+                        src="public/external/icon2002-ls6.svg"
+                        alt="icon2002"
+                        class="top-java-boilerplates-icon28"
+                      />
+                      <span class="top-java-boilerplates-text529">
+                        <span>Additional Information</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="top-java-boilerplates-code21">
+                    <div class="top-java-boilerplates-link1">
+                      <img
+                        src="public/external/icon2002-he1g.svg"
+                        alt="icon2002"
+                        class="top-java-boilerplates-icon29"
+                      />
+                      <span class="top-java-boilerplates-text531">
+                        <span>Spring Boot Initializr Documentation</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-link2">
+                      <img
+                        src="public/external/icon2002-5cck.svg"
+                        alt="icon2002"
+                        class="top-java-boilerplates-icon30"
+                      />
+                      <span class="top-java-boilerplates-text533">
+                        <span>JHipster Documentaion</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-link3">
+                      <img
+                        src="public/external/icon2002-qch.svg"
+                        alt="icon2002"
+                        class="top-java-boilerplates-icon31"
+                      />
+                      <span class="top-java-boilerplates-text535">
+                        <span>Dropwizard Documentation</span>
+                      </span>
+                    </div>
+                    <div class="top-java-boilerplates-link4">
+                      <img
+                        src="public/external/icon2005-0fhs.svg"
+                        alt="icon2005"
+                        class="top-java-boilerplates-icon32"
+                      />
+                      <span class="top-java-boilerplates-text537">
+                        <span>Micronaut Documentation</span>
+                      </span>
+                    </div>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-9upf-200w.png"
+                    alt="Rectangle40292002"
+                    class="top-java-boilerplates-rectangle402921"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-java-boilerplates-header">
+            <div class="top-java-boilerplates-bread-crumb">
+              <div class="top-java-boilerplates-breadcrumb">
+                <div class="top-java-boilerplates-item">
+                  <div class="top-java-boilerplates-link5">
+                    <span class="top-java-boilerplates-text539">
+                      <span>Blog</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/framei2002-478.svg"
+                    alt="FrameI2002"
+                    class="top-java-boilerplates-frame"
+                  />
+                </div>
+                <div class="top-java-boilerplates-item-link">
+                  <span class="top-java-boilerplates-text541">
+                    <span>Top Java Boilerplates</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <span class="top-java-boilerplates-text543 Display2Bold">
+              <span>Top 5 Java Boilerplates for Efficient Development</span>
+              <br />
+              <span></span>
+            </span>
+            <img
+              src="public/external/image22005-5389-700h.png"
+              alt="image22005"
+              class="top-java-boilerplates-image2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
